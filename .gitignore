@@ -1,0 +1,5 @@
+~*.lck
+*backup*
+*.lck
+fp-info-cache
+~*
