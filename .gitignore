@@ -1,5 +1,7 @@
 ~*.lck
 *backup*
 *.lck
+*.png
+*.kra
 fp-info-cache
-~*
+'*~'
