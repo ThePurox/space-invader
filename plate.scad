@@ -3,7 +3,7 @@ mx = 19.05;
 sw = 14;
 offset = [15.25,8.7,-1];
 height = 5;
-top_holes = false;
+top_holes = true;
 bottom_holes = true;
 
 module onoffswitch(){
@@ -27,7 +27,7 @@ module ddiode(){
 module xiao(){
     dx = 22;
     dy = 23;
-    dz = 2;
+    dz = 3;
     translate([-dx/2-2.5,0,0])cube([dx,dy,dz]);
 }
 
