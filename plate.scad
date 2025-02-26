@@ -3,6 +3,8 @@ mx = 19.05;
 sw = 14;
 offset = [15.25,8.7,-1];
 height = 5;
+top_holes = false;
+bottom_holes = true;
 
 module onoffswitch(){
 h=1.7;
@@ -52,6 +54,7 @@ union(){
     for(i=[0:2]){
         translate([3*mx,(i+1)*mx,0])cube(sw);
     }
+    if(bottom_holes){
     translate([2.5*mx,-2.6,0])xiao();
     
     for(i=[0:2]){
@@ -69,10 +72,13 @@ union(){
     for(i=[0:1]){
         translate([(0.5+4*i)*mx-2.5,2*mx+sw/2,0]) ddiode();
     }
+    
     for(i=[0:1]){
         translate([i*mx+sw,sw/2,1.5])cube([11,14,3],center=true);
     }
+    }
+    if(top_holes){
     translate([11.5,-3,0])onoffswitch();
-
+    }
 }
 }
