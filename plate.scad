@@ -73,9 +73,8 @@ union(){
         translate([(0.5+4*i)*mx-2.5,2*mx+sw/2,0]) ddiode();
     }
     
-    for(i=[0:1]){
-        translate([i*mx+sw,sw/2,1.5])cube([11,14,3],center=true);
-    }
+    translate([1*mx+sw,sw/2-3,1.5])cube([2.*mx,20,3],center=true);
+    
     }
     if(top_holes){
     translate([11.5,-3,0])onoffswitch();
