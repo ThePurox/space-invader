@@ -1,5 +1,5 @@
 The space-invader was conceptualized [kilipan](https://github.com/kilipan). I liked the idea so much that I realized the board.
-![front and back view of the board](board.png)
+![front and back view of the board](board.jpeg)
 
 A single board can be used as a macropad, but it really shines, when two boards are used together. Then it acts like a split [humming bird keyboard](https://github.com/PJE66/hummingbird).
 The board uses [XIAO-nRF52840](https://wiki.seeedstudio.com/XIAO_BLE/) controllers.
